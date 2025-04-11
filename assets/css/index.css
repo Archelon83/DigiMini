@@ -6,7 +6,7 @@
 @media only screen and (min-width: 0rem) {
     #hero-1856 {
       /* 200px - 300px - leaving extra space for the navigation */
-      padding: clamp(1.9375rem, 10vw, 1.5rem) 1rem 1.75rem;
+      padding: clamp(10.9375rem, 10vw, 1.5rem) 2rem 18.75rem;
       /* prevents the topper line from causing an overflow */
       overflow: hidden;
       position: relative;
