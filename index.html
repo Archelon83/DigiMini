@@ -86,7 +86,7 @@
                 </ul>
             </div>
         </nav>
-        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <a href="#contact-form" class="cs-button-solid cs-nav-button">Contact Us</a>
         <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
         <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
             <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
@@ -126,6 +126,47 @@
     <img class="cs-graphic cs-graphic-light" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-splatter.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
     <!--This is a dark version. Download the image and change the fill color to match the color of the section background below it-->
     <img class="cs-graphic cs-graphic-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
-</section>                    
+</section> 
+
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
+
+<section class="contact-section">
+    <div class="contact-intro">
+      <img src="assets/image/dice-twenty-faces-twenty.svg" alt="D20" width="auto" height="auto">
+      <h2 id="contact-form" class="contact-title">You Passed Your Investigation Check!<br>
+         Fill Out This Form to get Important Updates</h2>
+      <p class="contact-description">
+        (*pssst* If you do, you may even be able to gain access earlier. Don't tell anyone...) 
+      </p>
+    </div>
+  
+    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  
+      <input type="hidden" name="access_key" value="bcceaa29-0078-4f65-b3de-ff0b83bc3798" />
+      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+      <input type="hidden" name="from_name" value="My Website" />
+      <!-- More customization options available in the docs: https://docs.web3forms.com -->
+  
+      <div class="form-group-container">
+        <div class="form-group">
+          <label for="name" class="form-label">Name</label>
+          <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
+        </div>
+        <div class="form-group">
+          <label for="phone" class="form-label">Phone</label>
+          <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+        </div>
+      </div>
+      <button class="form-submit" type="submit">Send Message</button>
+    </form>
+  
+  </section>
+                   
 </body>
 </html>                               
