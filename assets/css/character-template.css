@@ -234,7 +234,7 @@
     /* makes it act like a background image */
     object-fit: cover;
     position: absolute;
-    top: 1em;
+    top: 0.5em;
     left: 0;
 }
 #content-page-716 .cs-bottom-border {
